@@ -886,7 +886,7 @@
 
 # sent_id = 104
 # text = Abrams could.
-1	Abrams	Abrams	NOUN	NNS	Number=Plur	2	nsubj	_	_
+1	Abrams	Abrams	PROPN	_	Number=Sing|Gender=Masc	2	nsubj	_	_
 2	could	could	AUX	MD	VerbForm=Fin	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
 
