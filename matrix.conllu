@@ -1,30 +1,28 @@
-# newdoc
-# newpar
 # sent_id = 1
 # text = It rained.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	rained	raine	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+3	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = 2
 # text = Abrams barked.
-1	Abrams	Abrams	NOUN	NNS	Number=Plur	2	nsubj	_	_
+1	Abrams	Abrams	PROPN	NNS	Number=Sing|Gender=Masc	2	nsubj	_	_
 2	barked	barke	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+3	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = 3
 # text = The window opened.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
-2	window	window	NOUN	NN	Number=Sing	3	nsubj	_	_
+2	window	window	NOUN	NN	Number=Sing|Gender=Fem	3	nsubj	_	_
 3	opened	open	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+4	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = 4
 # text = Abrams chased Browne.
-1	Abrams	Abrams	NOUN	NNS	Number=Plur	0	root	_	_
-2	chased	chase	VERB	VBN	Tense=Past|VerbForm=Part	3	amod	_	_
-3	Browne	Browne	PROPN	NNP	Number=Sing	1	appos	_	SpaceAfter=No
-4	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+1	Abrams	Abrams	PROPN	NNS	Number=Sing|Gender=Masc	2	nsubj	_	_
+2	chased	chase	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+3	Browne	Browne	PROPN	NNP	Number=Sing	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = 5
 # text = Abrams handed Browne the cigarette.
@@ -33,46 +31,46 @@
 3	Browne	Browne	PROPN	NNP	Number=Sing	2	iobj	_	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
 5	cigarette	cigarette	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
-6	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+6	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = 6
 # text = Abrams handed the cigarette to Browne.
-1	Abrams	Abrams	NOUN	NNS	Number=Plur	2	nsubj	_	_
+1	Abrams	Abrams	PROPN	NNS	Number=Sing|Gender=Masc	2	nsubj	_	_
 2	handed	hand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
 4	cigarette	cigarette	NOUN	NN	Number=Sing	2	obj	_	_
 5	to	to	ADP	IN	_	6	case	_	_
-6	Browne	Browne	PROPN	NNP	Number=Sing	2	obl	_	SpaceAfter=No
-7	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+6	Browne	Browne	PROPN	NNP	Number=Sing|Gender=Masc	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = 7
 # text = Abrams bet Browne a cigarette that it rained.
-1	Abrams	Abrams	ADV	RB	_	2	advmod	_	_
+1	Abrams	Abrams	PROPN	RB	Number=Sing|Gender=Masc	2	nsubj	_	_
 2	bet	bet	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
-3	Browne	Browne	PRON	PRP	_	5	nmod:poss	_	_
+3	Browne	Browne	PROPN	PRP	Gender=Masc|Number=Sing	2	obj	_	_
 4	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
-5	cigarette	cigarette	NOUN	NN	Number=Sing	8	obj	_	_
+5	cigarette	cigarette	NOUN	NN	Gender=Masc|Number=Sing	2	obl	_	_
 6	that	that	SCONJ	IN	_	8	mark	_	_
 7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 8	rained	rain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
-9	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+9	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = 8
 # text = Abrams knew that it rained.
-1	Abrams	Abrams	PROPN	NNP	Number=Sing	2	nsubj	_	_
+1	Abrams	Abrams	PROPN	NNP	Number=Sing|Gender=Masc	2	nsubj	_	_
 2	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	that	that	SCONJ	IN	_	5	mark	_	_
 4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 5	rained	rain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
-6	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+6	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = 9
 # text = Abrams intended to bark.
-1	Abrams	Abrams	NOUN	NNS	Number=Plur	0	root	_	_
-2	intended	intend	VERB	VBN	Tense=Past|VerbForm=Part	1	acl	_	_
+1	Abrams	Abrams	PRON	NNS	Number=Sing|Gender=Masc	2	nsubj	_	_
+2	intended	intend	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
 3	to	to	ADP	IN	_	4	case	_	_
 4	bark	bark	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
-5	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+5	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = 10
 # text = Abrams intended Browne to bark.
@@ -88,7 +86,7 @@
 1	Every	every	DET	DT	_	2	det	_	_
 2	cat	cat	NOUN	NN	Number=Sing	3	nsubj	_	_
 3	barked	barke	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+4	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = 12
 # text = Every cat chased some dog.
@@ -867,14 +865,14 @@
 1	Somebody	somebody	PRON	NN	Number=Sing	2	nsubj	_	_
 2	chased	chase	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	Abrams	Abrams	PROPN	NNPS	Number=Plur	2	obj	_	SpaceAfter=No
-4	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+4	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = 102
 # text = How happy was Abrams?
 1	How	how	ADV	WRB	PronType=Int	4	advmod	_	_
 2	happy	happy	ADJ	JJ	Degree=Pos	4	nsubj	_	_
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
-4	Abrams	Abrams	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+4	Abrams	Abrams	PROPN	NNS	Number=Sing|Gender=Masc	0	root	_	SpaceAfter=No
 5	?	?	PUNCT	.	_	4	punct	_	SpacesAfter=\n
 
 # sent_id = 103
