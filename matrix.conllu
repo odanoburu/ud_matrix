@@ -574,7 +574,7 @@
 
 # sent_id = 71
 # text = Abrams put Browne in the garden.
-1	Abrams	Abrams	NOUN	NNS	Number=Plur	2	nsubj	_	_
+1	Abrams	Abrams	PROPN	NNS	Number=Sing|Gender=Masc	2	nsubj	_	_
 2	put	put	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	Browne	Browne	PROPN	NNP	Number=Sing	2	obj	_	_
 4	in	in	ADP	IN	_	6	case	_	_
