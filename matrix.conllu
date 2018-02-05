@@ -684,9 +684,9 @@
 # text = It bothered Abrams that Browne barked.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	bothered	bother	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-3	Abrams	Abrams	PROPN	NNPS	Number=Plur	2	obj	_	_
+3	Abrams	Abrams	PROPN	NNPS	Number=Sing|Gender=Masc	2	obj	_	_
 4	that	that	SCONJ	IN	_	6	mark	_	_
-5	Browne	Browne	PROPN	NNP	Number=Sing	6	nsubj	_	_
+5	Browne	Browne	PROPN	NNP	Number=Sing|Gender=Masc	6	nsubj	_	_
 6	barked	bark	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
 
@@ -694,7 +694,7 @@
 # text = It took Abrams ten minutes to arrive.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-3	Abrams	Abrams	ADV	RB	_	4	advmod	_	_
+3	Abrams	Abrams	PROPN	RB	Number=Sing|Gender=Masc	4	advmod	_	_
 4	ten	ten	NUM	CD	NumType=Card	5	nummod	_	_
 5	minutes	minute	NOUN	NNS	Number=Plur	2	obj	_	_
 6	to	to	PART	TO	_	7	mark	_	_
@@ -707,43 +707,43 @@
 2	left	leave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
 4	to	to	ADP	IN	_	5	case	_	_
-5	Browne	Browne	PROPN	NNP	Number=Sing	2	obl	_	_
+5	Browne	Browne	PROPN	NNP	Number=Sing|Gender=Masc	2	obl	_	_
 6	to	to	PART	TO	_	7	mark	_	_
 7	bark	bark	VERB	VB	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
 8	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
 
 # sent_id = 85
 # text = Abrams strikes Browne as old.
-1	Abrams	Abrams	NOUN	NNS	Number=Plur	2	compound	_	_
-2	strikes	strike	NOUN	NNS	Number=Plur	3	nsubj	_	_
-3	Browne	Browne	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+1	Abrams	Abrams	PROPN	NNS	Number=Sing|Gender=Masc	2	compound	_	_
+2	strikes	strike	VERB	NNS	Number=PlurMood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	nsubj	_	_
+3	Browne	Browne	PROPN	VBP	Number=Sing|Gender=Masc	0	root	_	_
 4	as	as	ADP	IN	_	5	case	_	_
 5	old	old	ADJ	JJ	Degree=Pos	3	obl	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
 
 # sent_id = 86
 # text = Browne considers Abrams old.
-1	Browne	Browne	PRON	PRP	_	2	nsubj	_	_
+1	Browne	Browne	PROPN	PRP	Number=Sing|Gender=Masc	2	nsubj	_	_
 2	considers	consider	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	Abrams	Abrams	NOUN	NNS	Number=Plur	2	obj	_	_
+3	Abrams	Abrams	PROPN	NNS	Number=Sing|Gender=Masc	2	obj	_	_
 4	old	old	ADJ	JJ	Degree=Pos	3	amod	_	SpaceAfter=No
 5	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
 
 # sent_id = 87
 # text = Abrams liked the idea that Browne could bark.
-1	Abrams	Abrams	NOUN	NNS	Number=Plur	2	nsubj	_	_
+1	Abrams	Abrams	PROPN	NNS	Number=Sing|Gender=Masc	2	nsubj	_	_
 2	liked	like	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
 4	idea	idea	NOUN	NN	Number=Sing	2	obj	_	_
 5	that	that	PRON	WDT	PronType=Rel	8	obj	_	_
-6	Browne	Browne	PRON	PRP	_	8	nsubj	_	_
+6	Browne	Browne	PROPN	PRP	Number=Sing|Gender=Masc	8	nsubj	_	_
 7	could	could	AUX	MD	VerbForm=Fin	8	aux	_	_
 8	bark	bark	VERB	VB	VerbForm=Inf	4	acl:relcl	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
 
 # sent_id = 88
 # text = Abrams barked from ten to three.
-1	Abrams	Abrams	NOUN	NNS	Number=Plur	2	nsubj	_	_
+1	Abrams	Abrams	NOUN	NNS	Number=Sing|Gender=Masc	2	nsubj	_	_
 2	barked	barke	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
 3	from	from	ADP	IN	_	4	case	_	_
 4	ten	ten	NUM	CD	NumType=Card	2	obl	_	_
@@ -753,7 +753,7 @@
 
 # sent_id = 89
 # text = Abrams was very old.
-1	Abrams	Abrams	PROPN	NNP	Number=Sing	4	nsubj	_	_
+1	Abrams	Abrams	PROPN	NNP	Number=Sing|Gender=Masc	4	nsubj	_	_
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
 3	very	very	ADV	RB	_	4	advmod	_	_
 4	old	old	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
@@ -769,7 +769,7 @@
 
 # sent_id = 91
 # text = Abrams barked very softly.
-1	Abrams	Abrams	NOUN	NNS	Number=Plur	2	nsubj	_	_
+1	Abrams	Abrams	PROPN	NNS	Number=Plur|Gender=Masc	2	nsubj	_	_
 2	barked	barke	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	very	very	ADV	RB	_	4	advmod	_	_
 4	softly	softly	ADV	RB	_	2	advmod	_	SpaceAfter=No
@@ -777,22 +777,22 @@
 
 # sent_id = 92
 # text = Browne's chasing of cats bothered Abrams.
-1	Browne	Browne	PRON	PRP	_	3	nsubj	_	SpaceAfter=No
+1	Browne	Browne	PROPN	PRP	_	3	nsubj	_	SpaceAfter=No
 2	's	's	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	chasing	chasing	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
 4	of	of	ADP	IN	_	5	case	_	_
 5	cats	cat	NOUN	NNS	Number=Plur	7	nmod	_	_
 6	bothered	bother	VERB	VBN	Tense=Past|VerbForm=Part	7	amod	_	_
-7	Abrams	Abrams	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+7	Abrams	Abrams	PROPN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
 8	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
 
 # sent_id = 93
 # text = It bothered Browne that Abrams chased cats.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	bothered	bother	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-3	Browne	Browne	PROPN	NNP	Number=Sing	2	obj	_	_
+3	Browne	Browne	PROPN	NNP	Number=Sing|Gender=Masc	2	obj	_	_
 4	that	that	SCONJ	IN	_	7	mark	_	_
-5	Abrams	Abrams	PROPN	NNPS	Number=Plur	7	nsubj	_	_
+5	Abrams	Abrams	PROPN	NNPS	Number=Sing|Gender=Masc	7	nsubj	_	_
 6	chased	chase	VERB	VBN	Tense=Past|VerbForm=Part	7	amod	_	_
 7	cats	cat	NOUN	NNS	Number=Plur	2	ccomp	_	SpaceAfter=No
 8	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
@@ -800,13 +800,13 @@
 # sent_id = 94
 # text = June third arrived.
 1	June	June	PROPN	NNP	Number=Sing	3	nsubj	_	_
-2	third	third	ADJ	JJ	Degree=Pos|NumType=Ord	3	amod	_	_
+2	third	third	NUN	JJ	Degree=Pos|NumType=Ord	3	amod	_	_
 3	arrived	arrive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
 
 # sent_id = 95
 # text = Abrams arrived at three twenty.
-1	Abrams	Abrams	PROPN	NNP	Number=Sing	2	nsubj	_	_
+1	Abrams	Abrams	PROPN	NNP	Number=Sing|Gender=Masc	2	nsubj	_	_
 2	arrived	arrive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	at	at	ADP	IN	_	5	case	_	_
 4	three	three	NUM	CD	NumType=Card	5	nummod	_	_
@@ -815,7 +815,7 @@
 
 # sent_id = 96
 # text = Browne arrived on Tuesday morning.
-1	Browne	Browne	PROPN	NNP	Number=Sing	2	nsubj	_	_
+1	Browne	Browne	PROPN	NNP	Number=Sing|Gender=Masc	2	nsubj	_	_
 2	arrived	arrive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	on	on	ADP	IN	_	5	case	_	_
 4	Tuesday	Tuesday	PROPN	NNP	Number=Sing	5	compound	_	_
@@ -839,7 +839,7 @@
 2	happier	happier	ADJ	JJR	Degree=Cmp	3	amod	_	_
 3	dog	dog	NOUN	NN	Number=Sing	0	root	_	_
 4	chased	chase	VERB	VBN	Tense=Past|VerbForm=Part	5	amod	_	_
-5	Browne	Browne	PROPN	NNP	Number=Sing	3	appos	_	SpaceAfter=No
+5	Browne	Browne	PROPN	NNP	Number=Sing|Gender=Masc	3	appos	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
 
 # sent_id = 99
@@ -857,14 +857,14 @@
 1	That	that	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
 2	dog	dog	NOUN	NN	Number=Sing	3	nsubj	_	_
 3	chased	chase	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-4	Browne	Browne	PROPN	NNP	Number=Sing	3	obj	_	SpaceAfter=No
+4	Browne	Browne	PROPN	NNP	Number=Sing|Gender=Masc	3	obj	_	SpaceAfter=No
 5	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
 
 # sent_id = 101
 # text = Somebody chased Abrams.
 1	Somebody	somebody	PRON	NN	Number=Sing	2	nsubj	_	_
 2	chased	chase	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-3	Abrams	Abrams	PROPN	NNPS	Number=Plur	2	obj	_	SpaceAfter=No
+3	Abrams	Abrams	PROPN	NNPS	Number=Sing|Gender=Masc	2	obj	_	SpaceAfter=No
 4	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = 102
@@ -880,8 +880,8 @@
 1	The	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
 2	number	number	NOUN	NN	Number=Sing	5	compound	_	_
 3	five	five	NUM	CD	NumType=Card	4	nummod	_	_
-4	bothers	bother	NOUN	NNS	Number=Plur	5	compound	_	_
-5	Browne	Browne	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+4	bothers	bother	VERB	NNS	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	compound	_	_
+5	Browne	Browne	PROPN	NNP	Number=Sing|Gender=Masc	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
 
 # sent_id = 104
@@ -892,7 +892,7 @@
 
 # sent_id = 105
 # text = Browne tried to.
-1	Browne	Browne	PRON	NN	Number=Sing	2	nsubj	_	_
+1	Browne	Browne	PROPN	NN	Number=Sing|Gender=Masc	2	nsubj	_	_
 2	tried	try	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	to	to	PART	TO	_	2	xcomp	_	SpaceAfter=No
 4	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
