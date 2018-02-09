@@ -107,7 +107,7 @@
 # sent_id = 14
 # text = It barked.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
-2	barked	barke	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	barked	barka	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
 
 # sent_id = 15
